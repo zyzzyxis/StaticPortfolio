@@ -21,7 +21,8 @@ const ContactMe = () => {
   return (
     <>
     <div>
-     <p>I can be contacted via <a target="_blank" href="https://www.linkedin.com/in/erin-zimmerman/">linkedin</a> currently.</p>
+      <br />
+     <p>I can also be contacted via <a target="_blank" href="https://www.linkedin.com/in/erin-zimmerman/">linkedin</a> currently.</p>
      
     </div>
       <Container>
