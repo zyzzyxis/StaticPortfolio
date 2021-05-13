@@ -22,7 +22,7 @@ const ContactMe = () => {
     <>
     <div>
       <br />
-     <p>I can also be contacted via <a target="_blank" href="https://www.linkedin.com/in/erin-zimmerman/">linkedin</a> currently.</p>
+     <p>I can also be contacted via <a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/erin-zimmerman/">linkedin</a> currently.</p>
      
     </div>
       <Container>
@@ -45,11 +45,6 @@ const ContactMe = () => {
             </Button>
           </div>
         </Form>
-        {/* {emailSent && 
-          <div style={{display: 'flex', justifyContent: 'center', marginTop: '1em'}}>
-            <h5 style={{color: "green"}} >Email Sent!</h5>
-          </div>
-        } */}
         </Container>
       </>
     
