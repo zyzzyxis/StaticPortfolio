@@ -9,20 +9,19 @@ const ContactMe = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_9rcijy7', e.target, 'user_hLwloleE2fK82EDvUyMPj')
+    emailjs.sendForm('service_oko4loo', 'template_9rcijy7', e.target, 'user_hLwloleE2fK82EDvUyMPj')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
-    // e.target.reset()  
+    e.target.reset()  
   }
 
   return (
     <>
     <div>
-      <h1>CONTACT ME</h1>
-      <p>I can be contacted via <a target="_blank" href="https://www.linkedin.com/in/erin-zimmerman/">linkedin</a> currently.</p>
+     <p>I can be contacted via <a target="_blank" href="https://www.linkedin.com/in/erin-zimmerman/">linkedin</a> currently.</p>
      
     </div>
       <Container>
@@ -40,7 +39,7 @@ const ContactMe = () => {
             <Form.Control placeholder='Message'  rows={5} type='textarea' as='textarea' name='message' />
           </Form.Group>
           <div style={{display: 'flex', justifyContent: 'center'}}>
-            <Button type='submit' style={{background:"green", borderColor:"green", padding: '1em', width: '10em', fontWeight: 'bold'}}>
+            <Button type='submit' >
               Send
             </Button>
           </div>
