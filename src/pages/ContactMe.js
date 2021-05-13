@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form , Container} from "react-bootstrap"
+import { Button, Form , Container, Col} from "react-bootstrap"
 import emailjs from 'emailjs-com';
 
 
@@ -28,13 +28,17 @@ const ContactMe = () => {
       <Container>
         <Form onSubmit={sendEmail}>
           <Form.Group>
-            <Form.Control placeholder='Your Name' name='name' />
+            <Form.Row>
+              <Col>
+                <Form.Control placeholder="Name" name='name' />
+              </Col>
+              <Col>
+                <Form.Control placeholder='Email' type='email' name='email' />
+              </Col>
+            </Form.Row>
           </Form.Group>
           <Form.Group>
-            <Form.Control placeholder='Your Email Address' name='email' />
-          </Form.Group>
-          <Form.Group>
-            <Form.Control placeholder='Subject' name='subject' />
+            <Form.Control placeholder='Email Subject' name='subject' />
           </Form.Group>
           <Form.Group>
             <Form.Control placeholder='Message'  rows={5} type='textarea' as='textarea' name='message' />
