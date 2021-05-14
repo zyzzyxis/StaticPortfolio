@@ -1,15 +1,22 @@
-
+import { Button } from 'react-bootstrap'
+import '../components/basicstyles.css'
 const Home = () => {
+
+
   return (
-    <div>
+    <>
+    <div className="homepage">
       <br />
-      <p>Page currently under construction, please enjoy the basic content provided. Check back soon for a more exciting Landing page!</p>
-      <br />
-      <h1>Erin Zimmerman</h1>
-      <h3>Full-Stack Web Developer and incredibly excited to help you reach your web application goals.</h3>
-   
+      <h1>I'm Erin Zimmerman,</h1>   
+      <h1>A Full-Stack Web Developer</h1> 
+      <a className="fancy-button" href="/about">About</a>
+      <a className="fancy-button"  href="/projects">Projects</a>
+      <a className="fancy-button" href="/connect">Let's Connect!</a>
     </div>
+    </>
   )
+
+  
 }
 
 export default Home

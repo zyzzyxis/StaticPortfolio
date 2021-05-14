@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.App-background {
+  background-color: rgb(187 235 241) !important;
+}
+
+.landing {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  line-height: 100%;
+  justify-content:center;
+}
