@@ -1,5 +1,6 @@
 import { Button } from 'react-bootstrap'
 import '../components/basicstyles.css'
+import Footer from '../components/Footer'
 const Home = () => {
 
 
@@ -13,6 +14,7 @@ const Home = () => {
       <a className="fancy-button"  href="/projects">Projects</a>
       <a className="fancy-button" href="/connect">Let's Connect!</a>
     </div>
+    <Footer/>
     </>
   )
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Form , Container, Col} from "react-bootstrap"
 import emailjs from 'emailjs-com';
+import Footer from '../components/Footer';
 
 
 
@@ -49,6 +50,7 @@ const ContactMe = () => {
             </Button>
           </div>
         </Form>
+        <Footer />
         </Container>
       </>
     

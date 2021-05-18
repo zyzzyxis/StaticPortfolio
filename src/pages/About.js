@@ -1,11 +1,15 @@
+import React from 'react'
+import {SiRuby,SiReact,SiPostgresql,SiJavascript,SiRails,SiHtml5,SiCss3} from "react-icons/si";
+import Footer from '../components/Footer';
+
 const About = () => {
   return (
     <div>
       <br />
-      <p>Page currently under construction, please enjoy the basic content provided. Check back soon for a more exciting About Me page!</p>
-     <h1>Erin Zimmerman</h1> 
-     <h3>Hi! I am a Full-Stack Web Developer</h3>
-    
+     <h1>About</h1> 
+     <h3>I am passionate about full-stack development. I have a passion for both learning and teaching. </h3>
+     <SiJavascript/><SiReact/><SiRuby/><SiRails/><SiPostgresql/><SiHtml5/><SiCss3/> 
+     <Footer />
   </div>
   )
 }
