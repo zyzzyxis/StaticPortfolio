@@ -1,18 +1,22 @@
 import React from 'react'
 import {FaGithub, FaLinkedin} from "react-icons/fa";
-import {Link} from 'react-router-dom'
+import {MdEmail} from 'react-icons/md'
 import './basicstyles.css'
 
 const Footer = () => (
   <div className='wrap'>
     <div>
+      Connect
       <div className="icons">
-        <Link href="https://github.com/zyzzyxis" target="_blank">
-          <FaGithub style={{margin:'10px'}}/>  
-        </Link>
-        <Link href="https://www.linkedin.com/in/erin-zimmerman/" target="_blank">
-          <FaLinkedin style={{margin:'10px'}}/>
-        </Link>
+        <a href="https://github.com/zyzzyxis" target="_blank">
+          <FaGithub style={{margin:'10px', fontSize: "30"}}/>  
+        </a>
+        <a href="https://www.linkedin.com/in/erin-zimmerman/" target="_blank">
+          <FaLinkedin style={{margin:'10px',fontSize: "30"}}/>
+        </a>
+        <a href="/connect">
+          <MdEmail style={{margin:'10px',fontSize: "30"}}/>
+        </a>
       </div>
     </div>
   </div>

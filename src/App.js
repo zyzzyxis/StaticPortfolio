@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import ContactMe from './pages/ContactMe';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/connect" component={ContactMe} />
     </Switch>
+    <br/>
+    <Footer />
     </div>
     </>
   );

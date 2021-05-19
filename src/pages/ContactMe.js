@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button, Form , Container, Col} from "react-bootstrap"
+import { Form , Container, Col} from "react-bootstrap"
 import emailjs from 'emailjs-com';
-import Footer from '../components/Footer';
 
 
 
@@ -23,7 +22,7 @@ const ContactMe = () => {
     <>
     <div>
       <br />
-     <p>I can also be contacted via <a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/erin-zimmerman/">linkedin</a> currently.</p>
+     <h1>Send me an email and I'll get back to you quickly </h1>
      
     </div>
       <Container>
@@ -45,12 +44,12 @@ const ContactMe = () => {
             <Form.Control placeholder='Message'  rows={5} type='textarea' as='textarea' name='message' />
           </Form.Group>
           <div style={{display: 'flex', justifyContent: 'center'}}>
-            <Button type='submit' >
+            <button className="fancy-button" type='submit' >
               Send
-            </Button>
+            </button>
           </div>
         </Form>
-        <Footer />
+        <a className="fancy-button" href="/">Home</a>
         </Container>
       </>
     

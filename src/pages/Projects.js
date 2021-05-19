@@ -34,7 +34,8 @@ const Projects = () => {
             </Accordion.Collapse>
           </Card>
         </Accordion>
-       
+        <br/>
+        <a className="fancy-button" href="/">Home</a>
       </Container>
     </>
     
