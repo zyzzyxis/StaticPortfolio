@@ -1,5 +1,4 @@
 import './App.css';
-import NavBar from './components/NavBar';
 import { Route, Switch } from 'react-router' 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -13,7 +12,6 @@ function App() {
     <>
     
     <div className="App">
-    {/* <NavBar /> */}
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />

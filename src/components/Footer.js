@@ -8,10 +8,10 @@ const Footer = () => (
     <div>
       Connect
       <div className="icons">
-        <a href="https://github.com/zyzzyxis" target="_blank">
+        <a href="https://github.com/zyzzyxis" rel="noreferrer" target="_blank">
           <FaGithub style={{margin:'10px', fontSize: "30"}}/>  
         </a>
-        <a href="https://www.linkedin.com/in/erin-zimmerman/" target="_blank">
+        <a href="https://www.linkedin.com/in/erin-zimmerman/" rel="noreferrer" target="_blank">
           <FaLinkedin style={{margin:'10px',fontSize: "30"}}/>
         </a>
         <a href="/connect">

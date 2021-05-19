@@ -1,6 +1,5 @@
 import { Container} from 'react-bootstrap'
 import '../components/basicstyles.css'
-import Footer from '../components/Footer'
 import img from '../images/Erinavatar.png'
 import {Row, Col} from 'react-bootstrap'
 
@@ -15,7 +14,7 @@ const Home = () => {
         <Row></Row>
       <Col></Col>
         <Col>
-        <img src={img} className="avatarimg"/>
+        <img src={img} alt="avatar" className="avatarimg"/>
         </Col>
         <Col>
         <h1 className="avatarimg">I'm Erin Zimmerman,<br/>
