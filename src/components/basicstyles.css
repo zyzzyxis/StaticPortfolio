@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Poppins:wght@800&display=swap');
 
+
 body {
   background: rgb(187, 235, 241) !important;
   font-family: 'Jost', sans-serif !important;
@@ -78,3 +79,5 @@ h1 {
   justify-content:space-evenly;
   font-size: 40px;
 }
+
+

@@ -11,13 +11,13 @@ const Home = () => {
       <br />
       <br />
       <Row>
-        <Row></Row>
-      <Col></Col>
+        <Col></Col>
+      
         <Col>
         <img src={img} alt="avatar" className="avatarimg"/>
         </Col>
         <Col>
-        <h1 className="avatarimg">I'm Erin Zimmerman,<br/>
+        <h1 className="avatarimg"><br/>I'm Erin Zimmerman,<br/>
           A Full-Stack Web Developer</h1> 
         </Col>
         <Col></Col>

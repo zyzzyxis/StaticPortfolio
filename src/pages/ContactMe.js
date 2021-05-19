@@ -22,7 +22,7 @@ const ContactMe = () => {
     <>
     <div>
       <br />
-     <h1>Send me an email and I'll get back to you quickly </h1>
+     <h1>Send me an email! </h1>
      
     </div>
       <Container>
@@ -42,15 +42,15 @@ const ContactMe = () => {
           </Form.Group>
           <Form.Group>
             <Form.Control placeholder='Message'  rows={5} type='textarea' as='textarea' name='message' />
-          </Form.Group>
-          <div style={{display: 'flex', justifyContent: 'center'}}>
             <button className="fancy-button" type='submit' >
               Send
             </button>
-          </div>
+          </Form.Group>
         </Form>
-        <a className="fancy-button" href="/">Home</a>
         </Container>
+        <br/>
+        <a className="fancy-button" href="/">Home</a>
+        <br/>
       </>
     
   )

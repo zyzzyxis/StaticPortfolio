@@ -15,10 +15,10 @@ const About = () => {
      <br />
       <Row>
         <Col>
-        <h3>I am passionate about full-stack development. I have a passion for both learning and teaching. </h3>
+        <h5> I am passionate about web development, problem solving, growth, teamwork, process improvement, and creating meaningful applications. </h5>
         </Col>
         <Col>
-          <h2>Skills</h2>
+          <h3>Skills</h3>
           <div className="skillsicons">
             <SiJavascript/><SiReact/><SiRuby/><SiRails/><SiPostgresql/><SiHtml5/><SiCss3/> 
           </div>
