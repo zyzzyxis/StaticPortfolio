@@ -15,10 +15,10 @@ const About = () => {
      <br />
       <Row>
         <Col>
-        <h5> I am passionate about web development, problem solving, growth, teamwork, process improvement, and creating meaningful applications. </h5>
-        </Col>
-        <Col>
-          <h3>Skills</h3>
+        <h5> I am passionate about web development, problem solving, growth, teamwork, process improvement, and creating meaningful applications.
+          <br/> <br/>Learning is a constant theme in my life. I have worked as a trainer/instructional designer for the last 6 years and have been able to transfer my skills for breaking down complex information and simplifying processes into web development. </h5>
+        <br/>
+          <h3>Technical Skills</h3>
           <div className="skillsicons">
             <SiJavascript/><SiReact/><SiRuby/><SiRails/><SiPostgresql/><SiHtml5/><SiCss3/> 
           </div>
@@ -27,6 +27,7 @@ const About = () => {
       <br />  <br />
      <a className="fancy-button" href="/">Home</a>
      </Container>
+     <br/>
   </div>
   )
 }

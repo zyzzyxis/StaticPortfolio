@@ -7,23 +7,16 @@ const Home = () => {
   return (
     <>
     <br/>
-    <Container>
-      <br />
-      <br />
-      <Row>
-        <Col></Col>
-      
-        <Col>
+    <div className='homeicons'>
+     
         <img src={img} alt="avatar" className="avatarimg"/>
-        </Col>
-        <Col>
-        <h1 className="avatarimg"><br/>I'm Erin Zimmerman,<br/>
+        
+        <h1 className="avatarimg"><br/> Hi! I'm Erin Zimmerman,<br/>
           A Full-Stack Web Developer</h1> 
-        </Col>
-        <Col></Col>
-      </Row>
-   </Container> 
-   <br/ >
+       
+   </div> 
+   <br/>
+   <br/>
    <div>
       
       <a className="fancy-button" href="/about">About</a>

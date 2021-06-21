@@ -26,7 +26,7 @@ const Projects = () => {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <p>Tarot for the traveler</p>
+                <p>Tarot for the Traveler</p>
                 <p>A custom realtor site (coming soon)</p>
                 <p>D&D tracking site</p>
                   
