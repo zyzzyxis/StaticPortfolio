@@ -1,7 +1,5 @@
-import { Container} from 'react-bootstrap'
 import '../components/basicstyles.css'
 import img from '../images/Erinavatar.png'
-import {Row, Col} from 'react-bootstrap'
 
 const Home = () => {
   return (
