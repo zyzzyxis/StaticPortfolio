@@ -21,10 +21,10 @@ const Projects = () => {
             </Accordion.Collapse>
           </Card>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="0">
+            <Accordion.Toggle as={Card.Header} eventKey="1">
               Projects in Progress
             </Accordion.Toggle>
-            <Accordion.Collapse eventKey="0">
+            <Accordion.Collapse eventKey="1">
               <Card.Body>
               <p>Part Time Nonsense<a target="_blank" rel="noreferrer" href="https://parttimenonsense.netlify.app/">here</a>.</p>
                <p>This website is just a collection of fun silly projects I like to work on in my free time. </p>
@@ -32,10 +32,10 @@ const Projects = () => {
             </Accordion.Collapse>
           </Card>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
+            <Accordion.Toggle as={Card.Header} eventKey="2">
               Future Projects
             </Accordion.Toggle>
-            <Accordion.Collapse eventKey="1">
+            <Accordion.Collapse eventKey="2">
               <Card.Body>
                 <p>Tarot for the Traveler</p>
                 <p>A custom realtor site (coming soon)</p>
